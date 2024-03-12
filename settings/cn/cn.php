@@ -25,6 +25,12 @@ class Conexion {
             die("Database connection error: " . $e->getMessage());
         }
     }
+      // Method to return the project path
+      public static function ruta(){
+        /* TODO: Project Access Path (Validate your port and folder name) */
+        return "http://localhost:90/PERSONAL_CompraVenta/";
+        /* return "https://compraventaandercode.azurewebsites.net/"; */
+    }
 }
 
 ?>
